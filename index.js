@@ -1,6 +1,11 @@
 module.exports = {
-  verifyConditions: ['semantic-release-vsce'],
+  verifyConditions: ['semantic-release-vsce', '@semantic-release/github'],
   prepare: [
+    {
+      path: '@semantic-release/changelog',
+      changelogFile: 'CHANGELOG.md',
+    },
+    '@semantic-release/git',
     {
       path: 'semantic-release-vsce',
       packageVsix: 'chatdown.vsix',
