@@ -19,6 +19,7 @@
     "semantic-release": "15.13.3"
   },
   "dependencies": {
+    "@semantic-release/github": "^5.2.10",
     "semantic-release-vsce": "^2.2.6"
   }
 }
