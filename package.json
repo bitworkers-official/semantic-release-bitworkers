@@ -4,7 +4,7 @@
   "description": "Semantic release configuration for Bitworkers",
   "main": "index.js",
   "files": [
-    "index.js"
+    "src"
   ],
   "keywords": [
     "semantic-release-config"

@@ -8,14 +8,14 @@ module.exports = {
     '@semantic-release/git',
     {
       path: 'semantic-release-vsce',
-      packageVsix: 'chatdown.vsix',
+      packageVsix: 'extension.vsix',
     },
   ],
   publish: [
     'semantic-release-vsce',
     {
       path: '@semantic-release/github',
-      assets: 'chatdown.vsix',
+      assets: 'extension.vsix',
     },
   ],
 }
