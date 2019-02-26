@@ -1,0 +1,21 @@
+{
+  "name": "prettier-config-bitworkers",
+  "version": "0.0.0-semantically-released",
+  "description": "Prettier configuration for Bitworkers",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "semantic-release-config"
+  ],
+  "author": "Bitworkers",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitworkers-official/semantic-release-config-bitworkers.git"
+  },
+  "devDependencies": {
+    "semantic-release": "15.13.3"
+  }
+}
