@@ -1,7 +1,7 @@
 {
   "name": "prettier-config-bitworkers",
   "version": "0.0.0-semantically-released",
-  "description": "Prettier configuration for Bitworkers",
+  "description": "Semantic release configuration for Bitworkers",
   "main": "index.js",
   "files": [
     "index.js"
