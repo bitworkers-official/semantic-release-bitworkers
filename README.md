@@ -23,3 +23,5 @@ module.exports = {
   extends: 'semantic-release-config-bitworkers',
 }
 ```
+
+<!-- TODO: note how to configure .travis.yml -->
