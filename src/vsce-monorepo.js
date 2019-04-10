@@ -5,7 +5,12 @@ module.exports = {
       path: '@semantic-release/changelog',
       changelogFile: '../CHANGELOG.md',
     },
-    '@semantic-release/git',
+    [
+      '@semantic-release/git',
+      {
+        assets: ['CHANGELOG.md'],
+      },
+    ],
     {
       path: 'semantic-release-vsce',
       packageVsix: 'extension.vsix',
